@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BaseApi/.vs/ExpenseTracker
+/BaseApi/ExpenseTracker.API/bin
+/BaseApi/ExpenseTracker.API/obj
+/BaseApi/ExpenseTracker.Constants/bin/Debug
+/BaseApi/ExpenseTracker.Constants/obj
+/BaseApi/ExpenseTracker.DTO/bin/Debug
+/BaseApi/ExpenseTracker.DTO/obj
+/BaseApi/ExpenseTracker.Repository/bin/Debug
+/BaseApi/ExpenseTracker.Repository/obj
+/BaseApi/packages
+/BaseApi/ExpenseTracker.API/Properties/PublishProfiles/pluralsightexpensetrackerapi.pubxml
