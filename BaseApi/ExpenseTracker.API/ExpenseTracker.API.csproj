@@ -134,6 +134,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\IQueryableExtensions.cs" />
+    <Compile Include="Helpers\VersionConstraint.cs" />
+    <Compile Include="Helpers\VersionedRoute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

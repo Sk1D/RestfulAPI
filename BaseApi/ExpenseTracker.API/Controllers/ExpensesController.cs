@@ -119,9 +119,10 @@ namespace ExpenseTracker.API.Controllers
             }
         }
 
-
-        [Route("expensegroups/{expenseGroupId}/expenses/{id}")]
-        [Route("expenses/{id}")]
+        //add to header "api-version:1" or add "Accept:application/vnd.expensetrackerapi.v2+json"
+        // 
+        [VersionedRoute("expensegroups/{expenseGroupId}/expenses/{id}",1)]
+        [VersionedRoute("expenses/{id}",1)]
         public IHttpActionResult Get(int id, int? expenseGroupId = null, string fields = null)
         {
             try
