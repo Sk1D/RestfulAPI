@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Web.Http.Routing;
 using ExpenseTracker.API.Controllers.Helpers;
 using System.Web;
+using CacheCow.Server.WebApi;
 using ExpenseTracker.DTO;
 
 namespace ExpenseTracker.API.Controllers
@@ -164,7 +165,7 @@ namespace ExpenseTracker.API.Controllers
             }
         }
 
-
+        [HttpCache(DefaultExpirySeconds = 300)]
         public IHttpActionResult Get(int id)
         {
             try

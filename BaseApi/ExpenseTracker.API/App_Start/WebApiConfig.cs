@@ -36,6 +36,7 @@ namespace ExpenseTracker.API
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver
                 = new CamelCasePropertyNamesContractResolver();
 
+
             return config;
              
         }
